@@ -9,7 +9,7 @@ print("------------------------------Snake Game --------------------------------
 
 while(round!= 0):
 
-  a =int(input(" player 1's turn : \n Enter your choice \n 0.For Snake\n 1.For Water \n 2.For Gun : \n "))
+  a =int(input(" player 1's turn : \n Enter your choice \n 0 For Snake\n 1 For Water \n 2 For Gun : \n "))
   if(a<0 or a>2 ):
   
     if(round==5):
